@@ -1,0 +1,34 @@
+var data = new Date()
+data
+data.getHours();
+data.getMinutes();
+data.getSeconds();
+data.getMilliseconds();
+
+var dataNova = new Date("September 18, 2024");
+//converter data em milisegundos
+Date.parse(dataNova);
+//passando a data com o valor em milissegundos
+new Date(....)
+dataNova.getDate();
+datanova.getMonth();
+dataNova.getFullYear();
+//dia da semana
+dataNova.getDay();
+
+//formatar a data para um padrão
+dataNova.getDate()+"/"+(dataNova.getMonth()+1)+dataNova.getFullYear
+
+//somando dias a dataNova
+dataNova.setDate(dataNova.getDate()+5)
+//vai exibir a resposta em milissegundas
+//para exibir no formato
+dataNova
+
+desafio
+acrescentar 17 horas a data nova
+
+//para mostrar o dia da semana
+dataNova.getDay();
+var dias = ["Domingo",....]
+dias[dataNova.getDay()];
